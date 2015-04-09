@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 # The base url for the Twitch API
 BASE_URL = 'https://api.twitch.tv/kraken'
@@ -8,7 +9,7 @@ API_VERSION = 'v3'
 # Client ID for application
 CLIENT_ID = '4ng71gqx25e27yig6whdsbkgx3q2my8'
 # Number of seconds between api calls
-SAVE_PERIOD = 60
+SAVE_PERIOD = 2
 # Number of featured streams to get (MAX 100)
 FEAT_LIMIT = 100
 
@@ -35,7 +36,6 @@ def save_featured_streams(headers):
 	if featured is not None:
 		for feature in featured:
 			stream = feature['stream']
-			print stream['game']
 
 # runs
 if __name__ == '__main__':
@@ -46,5 +46,11 @@ if __name__ == '__main__':
 		'Client_ID': CLIENT_ID,
 	}
 
+	prev_time = time.time()
+
 	# Event loop
-	save_featured_streams(headers)
+	while True:
+		time.sleep(SAVE_PERIOD - (time.time() - prev_time))
+		prev_time = time.time()
+		save_featured_streams(headers)
+		print time.time()
