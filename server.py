@@ -9,7 +9,7 @@ API_VERSION = 'v3'
 # Client ID for application
 CLIENT_ID = '4ng71gqx25e27yig6whdsbkgx3q2my8'
 # Number of seconds between api calls
-SAVE_PERIOD = 2
+SAVE_PERIOD = 60
 # Number of featured streams to get (MAX 100)
 FEAT_LIMIT = 100
 
@@ -46,6 +46,7 @@ if __name__ == '__main__':
 		'Client_ID': CLIENT_ID,
 	}
 
+	# Value that helps compensated for time drift
 	prev_time = time.time()
 
 	# Event loop
