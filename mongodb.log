@@ -1,0 +1,46 @@
+2015-04-09T20:16:47.206-0400 [initandlisten] MongoDB starting : pid=14884 port=1337 dbpath=/var/www/COMPLEXBackendML/data/db 64-bit host=wojtechnology
+2015-04-09T20:16:47.206-0400 [initandlisten] db version v2.6.5
+2015-04-09T20:16:47.206-0400 [initandlisten] git version: e99d4fcb4279c0279796f237aa92fe3b64560bf6
+2015-04-09T20:16:47.206-0400 [initandlisten] build info: Linux build8.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-04-09T20:16:47.206-0400 [initandlisten] allocator: tcmalloc
+2015-04-09T20:16:47.207-0400 [initandlisten] options: { net: { port: 1337 }, processManagement: { fork: true }, storage: { dbPath: "data/db" }, systemLog: { destination: "file", path: "mongodb.log" } }
+2015-04-09T20:16:47.213-0400 [initandlisten] journal dir=/var/www/COMPLEXBackendML/data/db/journal
+2015-04-09T20:16:47.213-0400 [initandlisten] recover : no journal files present, no recovery needed
+2015-04-09T20:16:47.274-0400 [initandlisten] allocating new ns file /var/www/COMPLEXBackendML/data/db/local.ns, filling with zeroes...
+2015-04-09T20:16:47.333-0400 [FileAllocator] allocating new datafile /var/www/COMPLEXBackendML/data/db/local.0, filling with zeroes...
+2015-04-09T20:16:47.333-0400 [FileAllocator] creating directory /var/www/COMPLEXBackendML/data/db/_tmp
+2015-04-09T20:16:47.335-0400 [FileAllocator] done allocating datafile /var/www/COMPLEXBackendML/data/db/local.0, size: 64MB,  took 0 secs
+2015-04-09T20:16:47.337-0400 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2015-04-09T20:16:47.337-0400 [initandlisten] 	 added index to empty collection
+2015-04-09T20:16:47.337-0400 [initandlisten] waiting for connections on port 1337
+2015-04-09T20:17:47.282-0400 [clientcursormon] mem (MB) res:30 virt:345
+2015-04-09T20:17:47.282-0400 [clientcursormon]  mapped (incl journal view):160
+2015-04-09T20:17:47.282-0400 [clientcursormon]  connections:0
+2015-04-09T20:22:47.297-0400 [clientcursormon] mem (MB) res:30 virt:345
+2015-04-09T20:22:47.297-0400 [clientcursormon]  mapped (incl journal view):160
+2015-04-09T20:22:47.297-0400 [clientcursormon]  connections:0
+2015-04-09T20:23:08.223-0400 [initandlisten] connection accepted from 127.0.0.1:56729 #1 (1 connection now open)
+2015-04-09T20:23:12.041-0400 [conn1] end connection 127.0.0.1:56729 (0 connections now open)
+2015-04-09T20:24:26.671-0400 [initandlisten] connection accepted from 127.0.0.1:56731 #2 (1 connection now open)
+2015-04-09T20:24:29.900-0400 [conn2] end connection 127.0.0.1:56731 (0 connections now open)
+2015-04-09T20:24:47.862-0400 [initandlisten] connection accepted from 127.0.0.1:56733 #3 (1 connection now open)
+2015-04-09T20:24:50.306-0400 [conn3] end connection 127.0.0.1:56733 (0 connections now open)
+2015-04-09T20:25:57.819-0400 [initandlisten] connection accepted from 127.0.0.1:56735 #4 (1 connection now open)
+2015-04-09T20:26:00.715-0400 [conn4] allocating new ns file /var/www/COMPLEXBackendML/data/db/twitchml.ns, filling with zeroes...
+2015-04-09T20:26:00.812-0400 [FileAllocator] allocating new datafile /var/www/COMPLEXBackendML/data/db/twitchml.0, filling with zeroes...
+2015-04-09T20:26:00.814-0400 [FileAllocator] done allocating datafile /var/www/COMPLEXBackendML/data/db/twitchml.0, size: 64MB,  took 0.001 secs
+2015-04-09T20:26:00.816-0400 [conn4] build index on: twitchml.streams properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "twitchml.streams" }
+2015-04-09T20:26:00.816-0400 [conn4] 	 added index to empty collection
+2015-04-09T20:26:00.817-0400 [conn4] insert twitchml.streams query: { _id: 13939299264, preview: { small: "http://static-cdn.jtvnw.net/previews-ttv/live_user_handmade_hero-80x45.jpg", large: "http://static-cdn.jtvnw.net/previews-ttv/live_user_handmade_hero-640x360.jpg", medium: "http://static-cdn.jtvnw.net/previews-ttv/live_user_handmade_hero-320x180.jpg", template: "http://static-cdn.jtvnw.net/previews-ttv/live_user_handmade_hero-{width}x{height}.jpg" }, created_at: "2015-04-09T23:52:14Z", datetime: new Date(1428625560710), video_height: 1080, game: "Game Development", _links: { self: "https://api.twitch.tv/kraken/streams/handmade_hero" }, channel: { updated_at: "2015-04-10T00:17:38Z", video_banner: "http://static-cdn.jtvnw.net/jtv_user_pictures/handmade_hero-channel_offline_image-df3d96003c852a42-640x360.jpeg", logo: "http://static-cdn.jtvnw.net/jtv_user_pictures/handmade_hero-profile_image-8b0e777e5059c679-300x300.jpeg", partner: false, display_name: "handmade_hero", delay: 0, followers: 19760, _links: { videos: "https://api.twitch.tv/kraken/channels/handmade_hero/videos", features: "https://api.twitch.tv/kraken/channels/handmade_hero/features", stream_key: "https://api.twitch.tv/kraken/channels/handmade_hero/stream_key", subscriptions: "https://api.twitch.tv/kraken/channels/handmade_hero/subscriptions", follows: "https://api.twitch.tv/kraken/channels/handmade_hero/follows", self: "https://api.twitch.tv/kraken/channels/handmade_hero", commercial: "https://api.twitch.tv/kraken/channels/handmade_hero/commercial", editors: "https://api.twitch.tv/kraken/channels/handmade_hero/editors", teams: "https://api.twitch.tv/kraken/channels/handmade_hero/teams", chat: "https://api.twitch.tv/kraken/chat/handmade_hero" }, broadcaster_language: "en", status: "Handmade Hero", views: 2070134, game: "Game Development", background: null, banner: null, name: "handmade_hero", language: "en", url: "http://www.twitch.tv/handmade_hero", created_at: "2014-11-05T07:23:55Z", mature: false, profile_banner_background_color: null, _id: 74521605, profile_banner: "http://static-cdn.jtvnw.net/jtv_user_pictures/handmade_hero-profile_banner-1505c48919f32d92-480.jpeg" }, average_fps: 29.9173553719, viewers: 660 } ninserted:1 keyUpdates:0 numYields:0 locks(micros) w:101948 102ms
+2015-04-09T20:26:00.818-0400 [conn4] command twitchml.$cmd command: insert { $msg: "query not recording (too large)" } keyUpdates:0 numYields:0 locks(micros) w:345 reslen:40 105ms
+2015-04-09T20:26:00.827-0400 [conn4] end connection 127.0.0.1:56735 (0 connections now open)
+2015-04-09T20:26:16.355-0400 [initandlisten] connection accepted from 127.0.0.1:56737 #5 (1 connection now open)
+2015-04-09T20:26:18.824-0400 [conn5] end connection 127.0.0.1:56737 (0 connections now open)
+2015-04-09T20:26:47.309-0400 [clientcursormon] mem (MB) res:31 virt:506
+2015-04-09T20:26:47.310-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:26:47.310-0400 [clientcursormon]  connections:0
+2015-04-09T20:26:56.943-0400 [initandlisten] connection accepted from 127.0.0.1:56739 #6 (1 connection now open)
+2015-04-09T20:27:18.568-0400 [conn6] end connection 127.0.0.1:56739 (0 connections now open)
+2015-04-09T20:27:32.955-0400 [initandlisten] connection accepted from 127.0.0.1:56750 #7 (1 connection now open)
+2015-04-09T20:29:26.788-0400 [conn7] CMD: drop twitchml.streams
+2015-04-09T20:29:32.405-0400 [conn7] end connection 127.0.0.1:56750 (0 connections now open)
