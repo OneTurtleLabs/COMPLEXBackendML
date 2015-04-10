@@ -44,3 +44,54 @@
 2015-04-09T20:27:32.955-0400 [initandlisten] connection accepted from 127.0.0.1:56750 #7 (1 connection now open)
 2015-04-09T20:29:26.788-0400 [conn7] CMD: drop twitchml.streams
 2015-04-09T20:29:32.405-0400 [conn7] end connection 127.0.0.1:56750 (0 connections now open)
+2015-04-09T20:31:04.009-0400 [initandlisten] connection accepted from 127.0.0.1:56755 #8 (1 connection now open)
+2015-04-09T20:31:18.256-0400 [initandlisten] connection accepted from 127.0.0.1:56756 #9 (2 connections now open)
+2015-04-09T20:31:47.331-0400 [clientcursormon] mem (MB) res:33 virt:507
+2015-04-09T20:31:47.331-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:31:47.331-0400 [clientcursormon]  connections:2
+2015-04-09T20:32:04.953-0400 [conn8] build index on: twitchml.streams properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "twitchml.streams" }
+2015-04-09T20:32:04.953-0400 [conn8] 	 added index to empty collection
+2015-04-09T20:32:06.720-0400 [conn9] end connection 127.0.0.1:56756 (1 connection now open)
+2015-04-09T20:32:46.835-0400 [initandlisten] connection accepted from 127.0.0.1:56758 #10 (2 connections now open)
+2015-04-09T20:32:52.128-0400 [conn10] end connection 127.0.0.1:56758 (1 connection now open)
+2015-04-09T20:33:24.610-0400 [initandlisten] connection accepted from 127.0.0.1:56760 #11 (2 connections now open)
+2015-04-09T20:33:57.692-0400 [conn11] end connection 127.0.0.1:56760 (1 connection now open)
+2015-04-09T20:34:50.033-0400 [initandlisten] connection accepted from 127.0.0.1:56762 #12 (2 connections now open)
+2015-04-09T20:35:44.970-0400 [conn12] end connection 127.0.0.1:56762 (1 connection now open)
+2015-04-09T20:36:43.661-0400 [initandlisten] connection accepted from 127.0.0.1:56766 #13 (2 connections now open)
+2015-04-09T20:36:47.349-0400 [clientcursormon] mem (MB) res:32 virt:507
+2015-04-09T20:36:47.350-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:36:47.350-0400 [clientcursormon]  connections:2
+2015-04-09T20:37:15.014-0400 [conn13] end connection 127.0.0.1:56766 (1 connection now open)
+2015-04-09T20:37:29.141-0400 [conn8] end connection 127.0.0.1:56755 (0 connections now open)
+2015-04-09T20:37:33.389-0400 [initandlisten] connection accepted from 127.0.0.1:56768 #14 (1 connection now open)
+2015-04-09T20:40:33.260-0400 [initandlisten] connection accepted from 127.0.0.1:56771 #15 (2 connections now open)
+2015-04-09T20:41:47.366-0400 [clientcursormon] mem (MB) res:32 virt:507
+2015-04-09T20:41:47.366-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:41:47.366-0400 [clientcursormon]  connections:2
+2015-04-09T20:42:19.553-0400 [conn15] end connection 127.0.0.1:56771 (1 connection now open)
+2015-04-09T20:42:26.133-0400 [conn14] end connection 127.0.0.1:56768 (0 connections now open)
+2015-04-09T20:44:24.316-0400 [initandlisten] connection accepted from 127.0.0.1:56774 #16 (1 connection now open)
+2015-04-09T20:44:27.320-0400 [conn16] end connection 127.0.0.1:56774 (0 connections now open)
+2015-04-09T20:46:47.382-0400 [clientcursormon] mem (MB) res:32 virt:507
+2015-04-09T20:46:47.383-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:46:47.383-0400 [clientcursormon]  connections:0
+2015-04-09T20:47:53.010-0400 [initandlisten] connection accepted from 127.0.0.1:56778 #17 (1 connection now open)
+2015-04-09T20:47:55.810-0400 [initandlisten] connection accepted from 127.0.0.1:56780 #18 (2 connections now open)
+2015-04-09T20:47:56.062-0400 [conn17] end connection 127.0.0.1:56778 (1 connection now open)
+2015-04-09T20:47:56.063-0400 [conn18] end connection 127.0.0.1:56780 (0 connections now open)
+2015-04-09T20:51:47.398-0400 [clientcursormon] mem (MB) res:32 virt:507
+2015-04-09T20:51:47.398-0400 [clientcursormon]  mapped (incl journal view):320
+2015-04-09T20:51:47.398-0400 [clientcursormon]  connections:0
+2015-04-09T20:53:25.737-0400 [initandlisten] connection accepted from 127.0.0.1:56781 #19 (1 connection now open)
+2015-04-09T20:53:30.561-0400 [initandlisten] connection accepted from 127.0.0.1:56783 #20 (2 connections now open)
+2015-04-09T20:53:30.797-0400 [conn19] end connection 127.0.0.1:56781 (1 connection now open)
+2015-04-09T20:53:30.798-0400 [conn20] end connection 127.0.0.1:56783 (0 connections now open)
+2015-04-09T20:55:40.294-0400 [initandlisten] connection accepted from 127.0.0.1:56784 #21 (1 connection now open)
+2015-04-09T20:55:43.139-0400 [initandlisten] connection accepted from 127.0.0.1:56786 #22 (2 connections now open)
+2015-04-09T20:55:51.572-0400 [conn21] end connection 127.0.0.1:56784 (1 connection now open)
+2015-04-09T20:55:51.573-0400 [conn22] end connection 127.0.0.1:56786 (0 connections now open)
+2015-04-09T20:56:22.778-0400 [initandlisten] connection accepted from 127.0.0.1:56791 #23 (1 connection now open)
+2015-04-09T20:56:25.208-0400 [initandlisten] connection accepted from 127.0.0.1:56793 #24 (2 connections now open)
+2015-04-09T20:56:31.341-0400 [conn23] end connection 127.0.0.1:56791 (1 connection now open)
+2015-04-09T20:56:31.342-0400 [conn24] end connection 127.0.0.1:56793 (0 connections now open)

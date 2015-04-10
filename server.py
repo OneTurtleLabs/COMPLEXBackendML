@@ -44,7 +44,9 @@ def save_featured_streams(headers, streams):
 		for feature in featured:
 			stream = feature['stream']
 			stream['datetime'] = datetime.datetime.utcnow()
-			ins_stream = streams.save(stream)
+			stream.pop('_id')
+			ins_stream = streams.insert_one(stream)
+			print ins_stream
 
 # runs
 if __name__ == '__main__':
