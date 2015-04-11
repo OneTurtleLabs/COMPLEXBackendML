@@ -46,7 +46,7 @@ def save_featured_streams(headers, streams):
 			stream['datetime'] = datetime.datetime.utcnow()
 			stream.pop('_id')
 			ins_stream = streams.insert_one(stream)
-			print ins_stream
+			# print ins_stream
 
 # runs
 if __name__ == '__main__':
@@ -61,6 +61,8 @@ if __name__ == '__main__':
 		'Client_ID': CLIENT_ID,
 	}
 
+	start_time = time.time()
+
 	# Value that helps compensated for time drift
 	prev_time = time.time()
 	iteration = 0
@@ -72,3 +74,4 @@ if __name__ == '__main__':
 		save_featured_streams(headers, streams)
 		iteration += 1
 		print 'Iteration: ' + str(iteration) + ' on ' + time.ctime()
+		print 'Collection has been running for: ' + str(time.time() - start_time)
